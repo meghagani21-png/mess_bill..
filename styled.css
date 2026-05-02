@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Portal</title>
+    <link rel="stylesheet" href="styled.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Admin Portal</h2>
+
+    <!-- ADD STUDENT -->
+    <input type="text" id="name" placeholder="Enter Student Name">
+    <input type="text" id="usn" placeholder="Enter Student USN">
+    <input type="text" id="dept" placeholder="Enter Department">
+    <input type="text" id="year" placeholder="Enter Year">
+    <input type="text" id="room" placeholder="Enter Room No">
+
+    <button onclick="addStudent()">Add Student</button>
+
+    <hr>
+
+    <!-- DELETE STUDENT -->
+    <input type="text" id="delName" placeholder="Enter Student Name to Delete">
+    <input type="text" id="delUsn" placeholder="Enter Student USN to Delete">
+
+    <button onclick="deleteStudent()">Delete Student</button>
+
+</div>
+
+<script src="scripted.js"></script>
+</body>
+</html>
